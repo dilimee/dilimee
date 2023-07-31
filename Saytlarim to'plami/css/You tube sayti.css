@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.d-flex-1 {
+    display: flex;
+    justify-content: start;
+}
+
+.d-flex-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-3 {
+    display: flex;
+    justify-content: end;
+}
+
+
+.width-1 {
+    margin-left: 10px;
+    width: 100px;
+}
+
+.width-2 {
+    text-align: center;
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    border-right: none;
+}
+
+.width-3 {
+    width: 80px;
+    margin-left: -20px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background-color: #F8F8F8;
+}
+
+.width-4 {
+    margin-left: 13px;
+    padding: 9px;
+    border: none;
+    width: 50px;
+    border-radius: 47%;
+}
+
+.row {
+    width: 100%;
+}
+
+.dl {
+    align-items: center;
+    display: flex;
+    justify-content: start !important;
+}
+
+.li {
+    align-items: center;
+    display: flex;
+    justify-content: center !important;
+}
+
+.sho {
+    align-items: center;
+    display: flex;
+    justify-content: end !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.left {
+    width: 15%;
+    margin-left: 2%;
+}
+
+.border-grey {
+    margin-top: 30px;
+    width: 90%;
+    border: 1px solid grey;
+}
+
+.left>h6:hover {
+    background-color: #F2F2F2;
+    width: 90%;
+
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.img-2 {
+    width: 15%;
+    border-radius: 20px;
+}
+
+.MARGIN-TOP {
+    margin-top: 160px;
+}
+
+.img-3 {
+    width: 100%;
+    height: 75%;
+}
+
+.button-1>a>button {
+    width: 110%;
+    border-radius: 5px;
+    margin-left: 11px;
+    border: none;
+
+}
+
+.button-2>a>button {
+    width: 200%;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+.dgasdf {
+    margin-left: -30px;
+}
+
+.img-4 {
+    width: 14%;
+    border-radius: 20px;
+}
+
+.sfdg>li {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:975px) {
+    .li {
+        display: none;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .sho {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1476px) {
+    .sfdg>li {
+        display: none;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .left {
+        display: none;
+    }
+}
