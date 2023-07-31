@@ -1,0 +1,230 @@
+ @import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body{
+    font-family: 'Sintony', sans-serif;
+}
+        .container{
+           display: flex;
+           justify-content: center;
+           background-color: white;
+           position: sticky;
+           top: 0px;
+           z-index: 2;
+        }
+        .row{
+            width: 35%;
+            margin: auto;
+        }
+        li{
+            padding: 10px;
+            list-style: none;
+        }
+        .d-flex{
+           justify-content: flex-end;
+            display: flex;
+        }
+        .size{
+            margin-top:10px; 
+            font-size: 25px;
+        }
+        .bg-img{
+           margin-top: 60px;
+           background-image: url("bgg.jpg");
+           width: 100%;
+           background-size: 100%;
+           margin: auto;
+           height: 100vh;
+
+        }
+        .blue{
+            color: #64dfed;
+        }
+        .red{
+            color: #f23870;
+        }
+        .center{
+            margin-left: 120px;
+            margin-top: -400px;
+            color: white;
+
+        }
+        .font-size{
+
+            font-size: 60px;
+        }
+        .button{
+            background-color: #64dfed;
+            color: white;
+            border-radius: 20px;
+            border: none;
+            width: 150px;
+            margin-top: 20px;
+            height: 4vh;
+        }
+        .h1{
+            margin-top: 200px;
+            margin-left: 20px;
+        }
+        .h3{
+            position: absolute;
+        }
+        .img-grid{
+            width: 80%;
+            margin: auto;
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: repeat(6,1fr);
+            position: relative;
+        }
+        .tyuio{
+            margin-top: -200px;
+            text-align: center;
+            color: white;  
+            border-radius: 10%; 
+        }
+        .kamlp{
+            margin-left: 50px
+        }
+        .text-center-img6{
+            position: absolute;
+            text-align: center;
+            color: #fff;
+            top: 20px;
+        }
+        .kljh{
+
+            border-radius: 20px;
+        }
+        .table-grid{
+            margin-top: 220PX
+        }
+        .grid-imges{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap:10%;
+            justify-content: space-around;
+        }
+        .shadov{
+            box-shadow: 0px 0px 80px 5px #bababa;
+        }
+        .text-left{
+            margin-top: -80px;
+        }
+        .greyop{
+            color: grey;
+            margin-top: 190px;
+        }
+        .grid-img6 {
+            color: ;
+            position: relative;
+            margin-top: 40px;
+             display: grid;
+             text-align: center;
+             overflow: hidden;
+             transition: all .5;
+             grid-gap: -20000%;
+            margin-bottom: 40px;
+            grid-template-columns: auto auto auto auto auto auto;
+            justify-content: space-around;
+        }
+        .grid-img7:hover{
+            transform: scale(1.2);
+        }
+        .sdfghj{
+            margin-left: 124px;
+            margin-bottom: 40px
+        }
+        .grey{
+            box-shadow: 0px 10px 10px 10px rgb(217, 213, 212);
+            margin-bottom: 25px
+
+
+        }
+        .eng-katta-grid > div button{
+            background-color: #f58a42;
+            border: #f58a42;
+            margin-top: 10px;
+            border-radius: 20px;
+            width: 120px;
+            color: white;
+            margin-bottom: 40px;
+            height: 5vh;
+            text-align: none;
+        }
+        .eng-katta-grid{
+            border-radius: 40px;
+            display: grid;
+            justify-content: center;
+            grid-gap: 3%;
+            grid-template-columns: auto auto auto auto;
+        }
+        .top{
+            margin-top: 30px;
+            margin-left: 135px;
+            margin-bottom: 40px;
+        }
+        .grid-3-talik{  
+            display: grid;
+            justify-content: center;
+            grid-gap: 10%;
+            grid-template-columns: auto auto auto;
+        }
+        .greya{
+            border-radius: 10px;
+            background-color: rgb(217, 213, 212);
+        }
+        .background-grey{
+            background-color:rgb(217, 213, 212);
+             width:100%;
+             margin-top: 40px;
+             height:30vh;
+             text-align: center;
+        }
+        .kamola{
+            font-size: 40px;
+        }
+        .kuchuk{
+            font-size: 20px
+        }
+        .text-left-juda-muhim{
+           padding: 10PX;
+        }
+        .it{
+            margin-top: 15px;
+        }
+        .left-top{
+            margin-left: 150px;
+            margin-top:-40px;
+        }
+        .flex{
+           display: flex;
+           justify-content: center;
+            margin-bottom: 60px;
+        }
+        .lable{
+            border: 3px solid #64dfed;
+            color: #ffff;
+            padding: 20px;
+            width: 300px;
+        }
+        .border{
+            border: 2px solid #64dfed;
+            width: 500px;
+            padding: 20px; 
+            border-left: none;
+            border-right: none;
+        }
+        .i{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+            background-color: #64dfed;
+            width: 70px;
+        }

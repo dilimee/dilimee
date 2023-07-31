@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.grid1{
+			width: 80%;
+			margin: auto;
+			display: grid;
+			border: 1px solid gray;
+			height: 700px;
+			gap: 3%;			
+			grid-template-columns: auto auto auto auto auto;
+		}
+		.iteam{
+			border-radius: 10pxw;
+			padding: 50px;
+			border: 1px solid gold;
+		}
+		.iteam:nth-child(1){
+			grid-column-start: 1;
+			grid-column-end: 3;
+		}
+		.iteam:nth-child(4){
+			grid-area: 1 / 5 / 3 / 5;
+		}
+		.iteam:nth-child(5){
+			grid-row-start: 2;
+			grid-row-end: 4;
+
+		}
+		.iteam:nth-child(7){
+			grid-area: 2 / 3 / 4 /5;
+		}
+		.iteam:nth-child(8){
+			grid-area: 3 / 2 / 5 / 2;
+
+		}
+		.iteam:nth-child(12){
+			grid-area: 4 / 4 / 4 /6;
+		}
+	</style>
+</head>
+<body>
+	<div class="grid1">
+		<div class="iteam">1</div>
+		<div class="iteam">2</div>
+		<div class="iteam">3</div>
+		<div class="iteam">4</div>
+		<div class="iteam">5</div>
+		<div class="iteam">6</div>
+		<div class="iteam">7</div>
+		<div class="iteam">8</div>
+		<div class="iteam">9</div>
+		<div class="iteam">10</div>
+		<div class="iteam">11</div>
+		<div class="iteam">12</div>
+	</div>
+</body>
+</html>
