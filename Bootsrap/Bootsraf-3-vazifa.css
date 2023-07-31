@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #22214B;
+    padding: 5%;
+    color: white;
+    /* text-align: center; */
+}
+.col{ 
+    /* text-align: center; */
+    /* margin: 30px; */
+}
+.col > img{
+    width: 400px;
+    height: 80vh;
+}
+.jjai{
+    margin-top: 60px;
+    margin-left: 300px;
+}
+.jjai > button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background-color: #615EF1;
+    color: white;
+}
+.jajiol{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.jjaip{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.jjaip > button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background-color: #615EF1;
+    color: white;
+}
+.jajiol > button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background-color: #615EF1;
+    color: white;
+}

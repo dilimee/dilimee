@@ -1,0 +1,46 @@
+.box-1{
+    width: 100%;
+    height: 100vh;
+}
+*{
+    color: #fff !important;
+}
+.containersdfa{
+    width: 100%;
+    position: sticky;
+    z-index: 2;
+    position: absolute !important;
+    margin: auto !important;
+}
+.navbar-nav > li > a{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.box-2{
+    height: 100vh;
+    background-image: url(./1-katta-rasim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-3{
+    height: 100vh;
+    background-image: url(./2-katta-rasim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-4{
+    height: 100vh;
+    background-image: url(./3-katta-rasim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fs-15{
+    font-size: 100px;
+}
+.left-top{
+    margin-top: 400px;
+    margin-left: -1930px;
+}
+.left-top > button{
+    padding: 20px;
+}

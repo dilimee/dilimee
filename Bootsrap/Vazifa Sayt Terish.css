@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-color: #213C53;
+    width: 100%;
+}
+.navbar > nav{
+    background-color: #213C53 !important;
+    width: 100%;
+}
+nav > div > a{
+    color: #fff !important;
+}
+.navbar-nav > a{
+    color: #8D9D9F;
+}
+.dropdown-menu{
+    background-color: #213C53 !important;
+    border: none;
+    color: #fff;
+}
+.hjklo{
+    background-color: #213C53 !important;
+    border: none;
+    color: #8D9D9F;
+}
+.mtgh-5{
+    margin-top: 80px;
+}
+.size{
+    font-size: 70px;
+    color: #D2E0ED;
+}
+.width{
+    width: 170px;
+}
+.widthyuiop{
+    width: 100%;
+}
+.jklop > a:hover{
+ color: #fff !important;
+}
+.hjfglflg > img{
+    width: 90px;
+    transition: all .5s;
+}
+.hjfglflg > img:hover{
+    width: 100px;
+}
+.imges > img{
+    width: 100%;
+}
+.background-2{
+    background-color: #F8FAFC;
+    width: 100%;
+}
+.images{
+    width: 100%;
+}
+.top-bottom{
+    margin-top: 200px;
+}
+.background-3{
+    background-color: #F3F7FA;
+    width: 100%;
+}
+.nklfgd > li{
+    list-style: none;
+}
+.fjkfkjdfjk > .col > img{
+    width: 100%;
+}
+.background-5{
+ background-color: #F4F7FB;
+ width: 100%;
+}
+.dklfg > .col >  img{
+    width: 100%;
+}
+.lkdkklhlkglsd > .col > img{
+    width: 100%;
+}
+@media screen and ( max-width:500px) {
+    .size {
+        font-size: 40px;
+        color: #D2E0ED;
+    }
+}
